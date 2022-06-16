@@ -15,7 +15,6 @@ public class Menu {
 
     private static final String SERVICE_NAME = "org.purejava.testmenu";
 
-
     private DBusMenu menu;
     private List<StatusNotifierItem.MenuItem> entries;
 
