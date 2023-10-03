@@ -19,7 +19,7 @@ public class ChangeIconCallback implements GCallback {
     public void apply() {
         try (var arena = Arena.ofConfined()) {
             LOG.info("Changing icon ...");
-            app_indicator_set_icon(indicator, arena.allocateUtf8String("/home/ralph/IdeaProjects/cryptomator/dist/linux/common/org.cryptomator.Cryptomator.tray.svg"));
+            app_indicator_set_icon(indicator, arena.allocateUtf8String("/home/ralph/IdeaProjects/cryptomator-tray/org.cryptomator.Cryptomator.tray.svg"));
         }
     }
 }

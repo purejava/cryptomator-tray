@@ -27,7 +27,7 @@ public class HelloApplication extends Application {
         try (var arena = Arena.ofConfined()) {
             arenaAuto = Arena.ofAuto();
             var indicator = app_indicator_new(arena.allocateUtf8String("org.cryptomator.Cryptomator"),
-                    arena.allocateUtf8String("/home/ralph/IdeaProjects/cryptomator/dist/linux/common/org.cryptomator.Cryptomator.tray-unlocked.svg"),
+                    arena.allocateUtf8String("/home/ralph/IdeaProjects/cryptomator-tray/org.cryptomator.Cryptomator.tray-unlocked.svg"),
                     APP_INDICATOR_CATEGORY_APPLICATION_STATUS());
             var gtkSeparator = gtk_menu_item_new();
             var gtkMenu = gtk_menu_new();
