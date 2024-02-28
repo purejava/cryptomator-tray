@@ -2,7 +2,6 @@ module org.purejava.demo {
     requires javafx.controls;
     requires javafx.fxml;
 
-    requires org.kordamp.bootstrapfx.core;
     requires org.slf4j;
     requires org.purejava.appindicator;
 
